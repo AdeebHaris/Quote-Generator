@@ -33,12 +33,12 @@ function App() {
 
   return (
     <>
-    <div className='row d-flex flex-column align-items-center mt-5'>
+    <div className='row  mt-5'>
       <div className='col-md-4'></div>
-      <div className='col-md-4'>
+      <div className='col-md-4 d-flex flex-column align-items-center justify-content-center'>
       <h1 className='text-center'>Daily Motivations</h1>
       <QuoteGenerator currentQuote={currentQuote} />
-      <button className='btn btn-info' style={{color:"white"}} onClick={handleNext}>Next</button>
+      <button className='btn btn-info ' style={{color:"white"}} onClick={handleNext}>Next</button>
       </div>
       <div className='col-md-4'></div>
     </div>
